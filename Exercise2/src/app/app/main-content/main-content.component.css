@@ -1,1 +1,30 @@
-
+#main-content{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 95%;
+    border: 35px solid white;
+    box-shadow: 6px 1px 29px 1px rgba(0,0,0,0.2);    
+    position: relative;
+}
+#mc-title{
+    margin-top: 10px;
+}
+#mc-content{     
+    width: 500px;
+    bottom:10px;
+}
+#mc-navig{
+    position: absolute;
+    left:85%;
+    top: -17px;
+}
+#mc-navig li{
+    list-style-type: none;
+    margin-left: -34px;
+    font-size: 20px;
+    padding-top: 15px;
+    box-shadow: 6px 1px 29px 1px rgb(229 203 203 / 20%);
+    background-color: #d1cdcd;
+    padding-left: 10px;
+}
