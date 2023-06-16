@@ -1,1 +1,9 @@
-
+<div id="gallery">
+    <div id="sgal" class="center">Gallery</div>
+    <div id="colgals" *ngFor="let x of galleryContent">
+       <div id="colorDiv" [style.backgroundColor]="x.backgroundColor" [ngStyle]="{'background-image': 'linear-gradient(x.backgroundColor)'}">
+            <div id="g-content">{{x.content}}</div>
+        </div> 
+    </div>
+</div>
+<app-footer></app-footer>
