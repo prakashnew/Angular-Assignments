@@ -1,1 +1,19 @@
-
+#menu-bar{
+    background-color: black;
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+#menu-bar li{
+    list-style-type: none;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    float: left;
+    margin-bottom:15px;
+}
+#fb{
+    height:40px;
+    margin-left: 80%;
+    border-radius: 20px;
+}
