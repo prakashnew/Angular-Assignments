@@ -1,1 +1,20 @@
-
+<div id="main-content">    
+<div id="mc-content"*ngFor="let x of displayContents">
+    <ng-container *ngIf="x.title=='Content'; then h2; else h3"></ng-container>
+    <ng-template #h2>
+        <h2 id="mc-title">{{x.title}}</h2>
+    </ng-template>
+    <ng-template #h3>
+        <h3 id="mc-title">{{x.title}}</h3>
+    </ng-template>
+        <!-- <h3 id="mc-title">{{x.title}}</h3> -->
+        <span>{{x.content}}</span>
+</div>
+<div id="mc-navig">
+    <h1>Navigation</h1>
+    <ul>
+        <li id="mc-nav-vals"*ngFor="let x of navigations">{{x}}</li>
+    </ul>        
+</div>
+</div>
+<app-gallery></app-gallery>
