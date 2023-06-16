@@ -1,1 +1,25 @@
-
+#gallery{
+    position: relative;    
+}
+#sgal{
+    font-size: 30px;
+    float: left;
+    position: absolute;    
+    left:45%;
+    top:5%;
+}
+#colgals{
+    position: relative;
+    width: 25%;
+    float: left;
+    top: 56px;
+}
+#colorDiv{
+    height:180px;    
+}
+#g-content{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    font-size: 20px;
+}
