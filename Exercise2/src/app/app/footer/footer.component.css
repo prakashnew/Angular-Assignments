@@ -1,1 +1,15 @@
-
+#footer{
+    top: 114%;
+    position: absolute;
+    font-size: 20px;
+    width: 97%;
+    box-shadow: 0 4px 8px 0 gray;
+    height: 29px;
+}
+#fcopyright{
+   float: left;
+}
+#fteam{
+    float: right;
+    width: 18%;
+}
