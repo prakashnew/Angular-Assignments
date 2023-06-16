@@ -1,1 +1,5 @@
-
+<div id="content-box"*ngFor="let x of displayContents">
+    <h3 id="xtitle">{{x.title}}</h3>
+    <span id="xcontent">{{x.content}}</span>
+</div>
+<app-main-content></app-main-content>
